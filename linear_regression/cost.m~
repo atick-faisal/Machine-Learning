@@ -1,5 +1,0 @@
-function J = cost(x, y, theta)
-    h = x * theta;
-    J = 
-end
-
