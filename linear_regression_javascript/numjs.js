@@ -136,3 +136,12 @@ function reshape(x, row, column) {
     }
     return y;
 }
+
+function linspace(start, end, n) {
+    let x = [];
+    let interval = (end - start) / (n - 1);
+    for(let i = 0; i < n; i++) {
+        x[i] = Math.floor(start + interval * i);
+    }
+    return x;
+}
